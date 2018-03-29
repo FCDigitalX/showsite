@@ -6,8 +6,8 @@ import { createClient, Entry } from 'contentful';
 // configure the service with tokens and content type ids
 // SET YOU OWN CONFIG here
 const CONFIG = {
-  space: 'hmyo51mpyfcb',
-  accessToken: '3d439ea5a2d7f158a5efe466ae5af3cc36629d04a4aa1e4c2bc3af2a93c6d825',
+  space: 'o5754pj3x9lk',
+  accessToken: '2febbdf0f275f97355c120d08c43a46809b63b7c5242cc962ca1d28226a2ebfd',
 
   contentTypeIds: {
     product: 'product'

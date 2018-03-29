@@ -12,7 +12,9 @@ import { ProductBidComponent } from './products/product-bid/product-bid.componen
 // define the available routes
 const routes: Routes = [
   { path: '', redirectTo: '/products', pathMatch: 'full' },
-  { path: 'products',  component: ProductListComponent }
+  { path: 'bid/:id', component: ProductBidComponent},
+  { path: 'products',  component: ProductListComponent },
+  { path: '**', redirectTo: 'products' }
 ];
 
 @NgModule({
