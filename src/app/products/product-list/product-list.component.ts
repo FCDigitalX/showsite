@@ -10,7 +10,7 @@ import { Entry } from 'contentful';
 })
 export class ProductListComponent implements OnInit {
   // define private class properties
-  private products: Entry<any>[] = [];
+  products: Entry<any>[] = [];
 
   constructor(private contentfulService: ContentfulService) { }
 

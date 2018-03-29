@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './products/product-list/product-list.component';
 import { ContentfulService } from './service/contentful.service';
 import { ProductsComponent } from './products/products.component';
+import { ProductBidComponent } from './products/product-bid/product-bid.component';
 
 
 // define the available routes
@@ -18,7 +19,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     ProductListComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProductBidComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,4 @@
-<div>
-<h1> {{product.fields.productName}}</h1>
-<img src="{{product.fields.image[0].fields.file.url}}">
-<p>{{product.fields.productDescription}}</p>
+<div class="product">
+  <a href="/{{product.fields.id}}/bid"><img src="{{product.fields.images[0].fields.file.url}}"></a>
+  <h1> {{product.fields.productName}}</h1>
 </div>
